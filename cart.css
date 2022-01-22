@@ -1,0 +1,28 @@
+.sneaker {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 900px;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+  }
+  .itemsinside {
+    /* TODO:change the size here 60% later on  */
+    width: 40%;
+    height: 700px;
+    /* border: 1px solid red; */
+  }
+  .linesadjust {
+    font-size: 14px;
+    line-height: 100%;
+    color: gray;
+  }
+  #addtocart {
+    border: 0;
+    border-radius: 5px;
+    background-color: #e09d00;
+    color: white;
+    padding: 10px 120px;
+    cursor: pointer;
+    overflow: none;
+  }

@@ -1,0 +1,241 @@
+.nav {
+  width: auto;
+  height: 30px;
+  border: 1px solid black;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 0.5%;
+}
+.design {
+  width: auto;
+  height: 50px;
+  border: 1px solid black;
+  /* color: black; */
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 0.5%;
+}
+.lyst {
+  border: solid 1px black;
+  width: 810px;
+  height: 30px;
+  padding-top: 10px;
+  margin: 10px;
+}
+/* slider first css  */
+.first {
+  margin-top: 65px;
+  width: auto;
+  height: 300px;
+  border: 1px solid red;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+.ifirst {
+  /* margin-top: 30px; */
+  width: 300px;
+  height: 300px;
+  border: 1px solid blue;
+  display: flex;
+}
+.man {
+  color: black;
+  writing-mode: sideways-lr;
+  -webkit-writing-mode: sideways-lr;
+  padding-top: 120px;
+}
+
+/* second  */
+.second {
+  width: auto;
+  height: 350px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+.isecond {
+  width: 330px;
+  height: 350px;
+  border: yellow 1px solid;
+  display: flex;
+}
+.boy {
+  color: black;
+  writing-mode: sideways-lr;
+  -webkit-writing-mode: sideways-lr;
+  padding-top: 45px;
+}
+
+/* big div css  */
+
+.big {
+  margin-top: 70px;
+  width: auto;
+  height: 1200px;
+  border: solid 1px red;
+}
+.ibig {
+  width: auto;
+  border: solid 1px green;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+.best {
+  width: 350px;
+  height: 400px;
+  border: solid 1px black;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* <!-- main options div  --> */
+
+.option {
+  margin-top: 70px;
+  background-color: #f5f4f2;
+  width: auto;
+  height: 500px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: space-around;
+
+  text-align: center;
+  align-items: center;
+}
+.ioptions {
+  width: 250px;
+  /* border: solid 1px green; */
+  height: 500px;
+  text-align: left;
+}
+.joinnow {
+  padding: 10px 40px;
+  background-color: black;
+  color: white;
+  border: 0;
+  cursor: pointer;
+
+  margin-left: 30px;
+}
+
+.greenbg {
+  cursor: pointer;
+  padding-left: 33px;
+  border-left: 2px solid black;
+  width: 350px;
+  background-color: #cafc4f;
+}
+.ioptions + h1 {
+  padding-top: 35px;
+}
+
+/* <!-- Wanted div below  --> */
+
+.wanted {
+  display: flex;
+  width: auto;
+  height: 300px;
+  border-top: 1px solid black;
+  /* border-bottom: 1px solid black; */
+  /* border: 2px 0px 2px 0px solid black; */
+  justify-content: space-around;
+}
+.verticali {
+  color: black;
+  writing-mode: sideways-lr;
+  -webkit-writing-mode: sideways-lr;
+  /* padding-top: 45px; */
+}
+.firstvertical {
+  font-family: Suisse Intl, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  padding-bottom: 0%;
+  margin: 0 0 0.5em;
+  width: 50px;
+  height: 300px;
+  /* border: 2px solid black; */
+}
+.firstvertical > h2 {
+  padding-bottom: 20%;
+  /* position: absolute; */
+}
+.horizontal {
+  /* padding-top: 3%; */
+  width: 180px;
+  height: 300px;
+  /* border: 2px solid black; */
+}
+.horizontal > h3 {
+  padding-top: 50px;
+  font-family: Suisse Intl, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 22px;
+  overflow: hidden;
+  color: #000;
+}
+.horizontal > h3:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+/* ---------- Shopping options tab----- */
+.verticali:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+.horizontal > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.shopping {
+  padding-top: 80px;
+}
+
+/* footer---------- */
+
+.alan {
+  background-color: #f5f4f2;
+  display: flex;
+  width: auto;
+  height: 480px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  justify-content: space-around;
+}
+.alan {
+  background-color: #f5f4f2;
+  display: flex;
+  width: auto;
+  height: 480px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  justify-content: space-around;
+}
+.horizontally {
+  /* border: 1px solid black; */
+  width: 200px;
+  height: 480px;
+  line-height: 60%;
+}
+.horizontally > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.shoppingfooter {
+  font-family: Suisse Intl, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  padding-top: 40px;
+}
+.horizontally > img {
+  padding-top: 50px;
+  cursor: pointer;
+  font-family: Suisse Intl, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+  /* border: 1px solid blue; */
+}
